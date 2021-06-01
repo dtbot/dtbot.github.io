@@ -1,4 +1,4 @@
-Doubtting Tom
+Doubting Tom
 Your Tool For Doubt Resolution!
 
 
