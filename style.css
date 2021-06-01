@@ -1,0 +1,90 @@
+
+html,body{
+  height:100%;
+  width:100%;
+  font-family: 'Rubik', sans-serif;
+  background-color: #fffafa;
+  color: #23272A;
+}
+
+
+.button2{
+  width:50px;
+  height:50px;  
+  display:flex;
+  border-radius: 50%;
+  color:white;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  border:none;
+  cursor:pointer;
+
+
+}
+
+.banner-1{
+  background: linear-gradient(-45deg, #284B63, #2364AA);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.footer_id{
+  background-color: #000;
+}
+.rounded_feature{
+  border-radius:10px;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  
+
+  }
+@media (min-width: 768px) {
+  .add-margin{
+    margin-left:50px ;
+    margin-right:50px ;
+    
+  }
+  
+}
+@media (min-width: 576px) {
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
